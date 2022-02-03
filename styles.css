@@ -1,0 +1,76 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+html {
+  min-height: 100%;
+  background-image: url("bcgrnd.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 7rem;
+  color: #F6D8D8;
+}
+
+p {
+  font-size: 2rem;
+  color: #F0FFFF;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bolder;
+}
+
+img {
+  width: 80%;
+}
+
+#btn {
+  background: #4a6e4d;
+  background-image: -webkit-linear-gradient(top, #4a6e4d, #12eb53);
+  background-image: -moz-linear-gradient(top, #4a6e4d, #12eb53);
+  background-image: -ms-linear-gradient(top, #4a6e4d, #12eb53);
+  background-image: -o-linear-gradient(top, #4a6e4d, #12eb53);
+  background-image: linear-gradient(to bottom, #4a6e4d, #12eb53);
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+#btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.refresh-btn {
+  margin-top: 1rem;
+}
+
+footer {
+  font-size: 1.1rem;
+  margin-top: 5%;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
